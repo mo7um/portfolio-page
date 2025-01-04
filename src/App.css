@@ -1,0 +1,38 @@
+:root {
+    --background-color: #070708;
+
+    --button-color: #1c1c21;
+    --border-color: #1c1c21;
+
+    --text-color-lighter: #cacace;
+    --text-color: #afb0b6;
+    --text-color-darker: #797c86;
+
+    --tag-text-color: #d6d0fb;
+    --tag-icon-color: #aea1f7;
+  }
+
+  [data-theme='light'] {
+    --background-color: #fff;
+
+    --button-color: #1c1c21;
+    --border-color: #1c1c21;
+
+    --text-color-lighter: #1c1c21;
+    --text-color: #1c1c21;
+    --text-color-darker: #1c1c21;
+
+    --tag-text-color: #d6d0fb;
+    --tag-icon-color: #aea1f7;
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope-VariableFont_wght.ttf');
+  }
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Manrope;
+  }
