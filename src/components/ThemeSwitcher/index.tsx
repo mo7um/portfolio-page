@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { ThemeContext } from "../../context/ThemeContext";
+import Button from "../Button/index"
 
 const ThemeSwitcher = () => {
     const context = useContext(ThemeContext);
@@ -14,9 +15,9 @@ const ThemeSwitcher = () => {
     }
 
     return (
-        <button onClick={toggleTheme}>
+        <Button onClick={toggleTheme}>
             Переключить на {theme === 'dark' ? 'светлую' : 'темную'} тему
-        </button>
+        </Button>
     )
 }
 

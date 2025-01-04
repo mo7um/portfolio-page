@@ -1,0 +1,25 @@
+.btn {
+
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+
+    cursor: pointer;
+    color: var(--button-text-color);
+    
+    border: 1px solid transparent;
+    border-radius: 10px;
+    
+    background:
+    linear-gradient(var(--button-color), var(--button-color)) padding-box,
+    linear-gradient(160deg, var(--button-gragient-color), transparent) border-box;
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.btn-primary {
+    padding: 16px 24px;
+}

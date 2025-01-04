@@ -2,6 +2,9 @@
     --background-color: #070708;
 
     --button-color: #1c1c21;
+    --button-gragient-color: #2f2f37;
+    --button-text-color: #ffffff;
+
     --border-color: #1c1c21;
 
     --text-color-lighter: #cacace;
@@ -15,7 +18,10 @@
   [data-theme='light'] {
     --background-color: #fff;
 
-    --button-color: #1c1c21;
+    --button-background-color: #1c1c21;
+    --button-gragient-color: #2f2f37;
+    --button-text-color: #ffffff;
+
     --border-color: #1c1c21;
 
     --text-color-lighter: #1c1c21;
@@ -32,7 +38,9 @@
   }
 
   body {
+    font-family: Manrope;
+
     background-color: var(--background-color);
     color: var(--text-color);
-    font-family: Manrope;
+
   }

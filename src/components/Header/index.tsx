@@ -4,7 +4,7 @@ import ThemeSwitcher from "../ThemeSwitcher";
 const Header = () => {
     return (
         <header className={style.header}>
-            HEADER
+            HEADER  
             <ThemeSwitcher />
         </header>
     );
