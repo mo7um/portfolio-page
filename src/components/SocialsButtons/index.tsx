@@ -8,11 +8,27 @@ interface Props {
 const SocialsButtons: React.FC<Props> = ({ customClass }) => {
     const socButtonsClasses: string = `${style[`soc-container`]} ${customClass || ""}`
 
+    const handleClick = (url: string) => {
+        window.open(url, '_blank');
+    }
+
     return (
         <div className={socButtonsClasses}>
-            <Button variant="socials" customClass={style.fb}></Button>
-            <Button variant="socials" customClass={style.x}></Button>
-            <Button variant="socials" customClass={style.ln}></Button>
+            <Button
+                variant="socials"
+                customClass={style.fb}
+                onClick={() => handleClick('https://youtu.be/dQw4w9WgXcQ')}
+            ></Button>
+            <Button
+                variant="socials"
+                customClass={style.x}
+                onClick={() => handleClick('https://youtu.be/dQw4w9WgXcQ')}
+                ></Button>
+            <Button
+                variant="socials"
+                customClass={style.ln}
+                onClick={() => handleClick('https://youtu.be/dQw4w9WgXcQ')}
+                ></Button>
         </div>
     );
 }

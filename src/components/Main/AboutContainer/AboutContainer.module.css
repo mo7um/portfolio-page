@@ -1,0 +1,153 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    gap: 80px;
+    margin: 0 162px;
+}
+
+/* Заголовок секции */
+
+.aboutContainer > .title {
+    height: 160px;
+    border-bottom: 1px solid var(--border-color);
+
+    display: flex;
+    justify-content: space-between;
+}
+.titleTextContent h3 {
+    color: var(--text-color-dark-gray);
+    text-transform: uppercase;
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.32px;
+}
+.titleTextContent h2 {
+    color: white;
+    text-transform: uppercase;
+
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 79.23px;
+}
+.titleButton  {
+    margin-top: 25.5px;
+}
+
+/* Контент секции */
+
+.content {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+}
+
+/* изображение*/
+
+.imageContainer img {
+    max-width: 783px;
+    height: 710px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+/* Текстовый контент */
+
+.articlesContainer {
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+}
+.articlesContainer .title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.articlesContainer .title h4 {
+    color: var(--text-color-light-gray);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40.98px;
+}
+.articlesContainer .title img {
+    height: 30px;
+}
+
+/* вступление */
+.introduction {
+    padding: 40px;
+    border-bottom: 1px solid var(--border-color);
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.introduction p {
+    color: var(--text-color-gray);
+    max-width: 703px;
+    text-wrap: wrap;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/* контакты */
+.contactInfo {
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.infoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.infoContainer .email {
+    width: 100%;
+    max-width: 341.5px;
+}
+.infoContainer h5 {
+    color: #E4E4E6;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.infoContainer a {
+    color: var(--text-color-gray);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.interaction {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+.socials {
+    padding: 16px;
+}
+
+.actionButtonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.actionButton {
+    width: 200px;
+}
+
+
