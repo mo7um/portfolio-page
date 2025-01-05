@@ -1,0 +1,39 @@
+{
+    "favorites": [
+        {
+            "id": 1,
+            "name": "Event Photography",
+            "link": "#"
+        },
+        {
+            "id": 2,
+            "name": "Comercial Photography",
+            "link": "#"
+        },
+        {
+            "id": 3,
+            "name": "Product Photography",
+            "link": "#"
+        },
+        {
+            "id": 4,
+            "name": "Wedding Photography",
+            "link": "#"
+        },
+        {
+            "id": 5,
+            "name": "Landscape Photography",
+            "link": "#"
+        },
+        {
+            "id": 6,
+            "name": "Branding Photography",
+            "link": "#"
+        },
+        {
+            "id": 7,
+            "name": "Portrait Photography",
+            "link": "#"
+        }
+    ]
+}
