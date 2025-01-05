@@ -42,15 +42,11 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-.rightTextBlock button {
-    width: 130px;
-    height: 66px;
-    padding: 0;
 
+.rightTextBlock .linkButton {
     position: relative;
     top: 7px;
     left: 10px;
-
 }
 
 .topSubContainer img {

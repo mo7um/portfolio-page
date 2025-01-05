@@ -16,7 +16,7 @@ function FirstContainer() {
                 <img src={abstractDesign} alt="Abstract Design" />
                 <div className={style.rightTextBlock}>
                     <span>Let’s</span>
-                    <Button variant='secondary' customClass=''></Button> {/* НАСТРОИТЬ КНОПКУ ДЛЯ ИЗМЕНЕНИЯ ВНУТРИ РОДИТЕЛЬСКОГО КЛАССА */}
+                    <Button variant='secondary' customClass={style.linkButton}></Button> {/* НАСТРОИТЬ КНОПКУ ДЛЯ ИЗМЕНЕНИЯ ВНУТРИ РОДИТЕЛЬСКОГО КЛАССА */}
                     <p>Work Together</p>
                 </div>
             </section>

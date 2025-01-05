@@ -24,6 +24,9 @@
 }
 
 .btn-secondary {
+    width: 130px;
+    height: 66px;
+
     border: none;
     border-radius: 100px;
     background-color: #4A2CED;
