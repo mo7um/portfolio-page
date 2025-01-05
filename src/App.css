@@ -1,5 +1,6 @@
 :root {
     --background-color: #070708;
+    --favorites-background-color: #0E0E10;
 
     --button-color: #1c1c21;
     --button-gragient-color: #2f2f37;
@@ -7,9 +8,13 @@
 
     --border-color: #1c1c21;
 
-    --text-color-lighter: #cacace;
-    --text-color: #afb0b6;
-    --text-color-darker: #797c86;
+    --text-color: #ffffff;
+    --text-color-light: #cacace;
+    --text-color-medium: #afb0b6;
+    --text-color-dark: #797c86;
+    --text-color-special-light: #E4E4E6;
+    --text-color-special-dark: #62646C;
+
 
     --tag-text-color: #d6d0fb;
     --tag-icon-color: #aea1f7;
@@ -17,16 +22,20 @@
 
   [data-theme='light'] {
     --background-color: #fff;
+    --favorites-background-color: #fff3e3;
 
-    --button-background-color: #1c1c21;
+    --button-color: #1c1c21;
     --button-gragient-color: #2f2f37;
     --button-text-color: #ffffff;
 
     --border-color: #1c1c21;
 
-    --text-color-lighter: #1c1c21;
-    --text-color: #1c1c21;
-    --text-color-darker: #1c1c21;
+    --text-color: black;
+    --text-color-light: #1c1c21;
+    --text-color-medium: #1c1c21;
+    --text-color-dark: #1c1c21;
+    --text-color-special-light: orange;
+    --text-color-special-dark: black;
 
     --tag-text-color: #d6d0fb;
     --tag-icon-color: #aea1f7;
@@ -35,6 +44,12 @@
   @font-face {
     font-family: 'Manrope';
     src: url('./fonts/Manrope-VariableFont_wght.ttf');
+  }
+
+  * {
+    font-family: Manrope;
+    margin: 0;
+    padding: 0;
   }
 
   body {
