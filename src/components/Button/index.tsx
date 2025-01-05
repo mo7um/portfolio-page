@@ -1,24 +1,21 @@
-import { ReactNode } from 'react';
 import style from './Button.module.css'
 
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-    variant?: "secondary" | "primary" | "switch" | "social";
-    children?: ReactNode;
-    onClick?: React.MouseEventHandler<HTMLButtonElement>;
+    variant?: "secondary" | "primary" | "switcher" | "socials" | "turn";
+    customClass?: string;
 }
 
 const Button: React.FC<Props> = ({
     variant = 'primary',
+    customClass,
     children,
-    onClick,
     ...props
 }) => {
-    const btnDefaultClasses: string = `${style.btn} ${style[`btn-${variant}`]}`;
+    const btnClasses: string = `${style.btn} ${style[`btn-${variant}`]} ${customClass || ""}`;
 
     return (
         <button
-            className={btnDefaultClasses}
-            onClick={onClick}
+            className={btnClasses}
             {...props}
         >
             {children}

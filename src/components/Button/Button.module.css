@@ -1,20 +1,19 @@
 .btn {
-
-    font-family: Manrope;
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
 
     cursor: pointer;
     color: var(--button-text-color);
-    
+    height: fit-content;
+
     border: 1px solid transparent;
     border-radius: 10px;
-    
+
     background:
     linear-gradient(var(--button-color), var(--button-color)) padding-box,
     linear-gradient(160deg, var(--button-gragient-color), transparent) border-box;
-    
+
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
@@ -22,4 +21,18 @@
 
 .btn-primary {
     padding: 16px 24px;
+}
+
+.btn-secondary {
+    border: none;
+    border-radius: 100px;
+    background-color: #4A2CED;
+    box-shadow: 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28) inset;
+    background-image: url("../../assets/icons/iconLink.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-switcher {
+    padding: 8px 20px ;
 }
